@@ -1,0 +1,20 @@
+﻿PRE-REQUISITES REQUIRED TO RUN THE PACKAGE
+-VISHVESWARAN JOTHI
+
+TRAINING:
+1. Use Linux Machine above 14.04 (Trusty Tahr)
+2. The machine should have a good GPU say K40
+3. Install ffmpeg to decode video into frames
+4. Install Tensorflow to use Deep-Learning package
+5. Use python 3.4 and above(recommended). Also, it is back-compatible with python 2.7
+
+
+TESTING:
+1. Use Linux Machine above 14.04 (Trusty Tahr)
+2. The machine need not have a GPU
+3. Load the wights and model in appropriate folder structure
+4. Install ffmpeg to decode video into frames
+5. Install Tensorflow to use Deep-Learning package
+6. Use python 3.4 and above(recommended). Also, it is back-compatible with python 2.7
+
+
