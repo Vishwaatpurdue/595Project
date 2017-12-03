@@ -1,0 +1,8 @@
+﻿Min no.of images in the dataset is 29.
+Max no.of images in the dataset is 1776.
+Seq length to be 40 – map test accuracy
+Seq length to be 30 – map test accuracy
+Seq length to be 50 – map test accuracy
+Set max to 400
+training dataset is split into train validate and test
+Threadsafe generator is for parallel processing. Else it will take more than than necessary 
