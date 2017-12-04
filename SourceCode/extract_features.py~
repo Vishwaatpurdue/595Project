@@ -57,7 +57,7 @@ def main():
         seq_path=os.path.join(os.path.dirname(os.path.dirname(__file__)),'data', 'sequences')
     else:        
         if os.path.isdir(os.path.join(abspath,'sequences')):
-            pass
+            continue
         else:
             os.mkdir(os.path.join(abspath,'sequences'))
     data = Dataset(data_length=seq_length,maxframes=max_frames,path=seq_path)
