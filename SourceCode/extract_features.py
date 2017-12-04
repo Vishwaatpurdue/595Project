@@ -77,7 +77,7 @@ def main():
         
 def extract_features(seq_length,max_frames,abspath=None):
     """ This function is to ease the training process to analyze the performance of the algorithm for various hyper parameters."""
-    if abspath=='':
+    if abspath=='' or abspath==None:
         seq_path=os.path.join(os.path.dirname(os.path.dirname(__file__)),'data', 'sequences')
     else:        
         if os.path.isdir(os.path.join(abspath,'sequences')):
