@@ -14,7 +14,7 @@ import cv2
 import util
 from dataloader import Dataset
 from keras.applications.inception_v3 import InceptionV3, preprocess_input
-from keras.applications.inception_v4 import InceptionV4, preprocess_input as preproc
+#from keras.applications.inception_v4 import InceptionV4, preprocess_input as preproc
 from keras.models import Model, load_model
 from keras.layers import Input 
 class Feature_Extractor():
